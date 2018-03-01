@@ -513,10 +513,10 @@
             </objects>
             <point key="canvasLocation" x="3383.1999999999998" y="-260.41979010494754"/>
         </scene>
-        <!--View Controller-->
+        <!--ParentRegistrationViewController-->
         <scene sceneID="0Mv-Rw-g62">
             <objects>
-                <viewController id="3Sn-pn-UCf" sceneMemberID="viewController">
+                <viewController title="ParentRegistrationViewController" id="3Sn-pn-UCf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C5V-Rf-kaK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -585,7 +585,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ipY-lJ-K79" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3776.8000000000002" y="-407.0464767616192"/>
+            <point key="canvasLocation" x="4081" y="392"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="1YU-h9-ogf">
