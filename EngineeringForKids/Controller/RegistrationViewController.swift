@@ -8,7 +8,7 @@
 import UIKit
 import Firebase
 
-class RegistrationViewController: UIViewController {
+class ParentRegistrationViewController: UIViewController {
     
     // IBOutlets
     
@@ -21,5 +21,6 @@ class RegistrationViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    // FIRAuth.auth()?.createUser(withEmail: emailTextField.text!, password: passwordTextField.text!, completion: )
     
 }
