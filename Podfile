@@ -15,6 +15,7 @@ pod 'Firebase'
   target 'EngineeringForKidsTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Firebase'
   end
 
   target 'EngineeringForKidsUITests' do
