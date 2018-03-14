@@ -11,6 +11,8 @@
 		7CEC70962040F928004C89F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CEC70952040F928004C89F0 /* GoogleService-Info.plist */; };
 		7CEC709B2041002E004C89F0 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC709A2041002E004C89F0 /* RegistrationViewController.swift */; };
 		7FB9C1E9359C224B985E3A93 /* Pods_EngineeringForKidsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38785351A325E566EABD6D69 /* Pods_EngineeringForKidsUITests.framework */; };
+		8B00BC8020588B85000A6727 /* SelectChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00BC7F20588B85000A6727 /* SelectChildViewController.swift */; };
+		8B00BC842058A518000A6727 /* ParentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00BC832058A518000A6727 /* ParentLoginViewController.swift */; };
 		8C882BAF20389ECB0060FB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C882BAE20389ECB0060FB6A /* AppDelegate.swift */; };
 		8C882BB120389ECB0060FB6A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C882BB020389ECB0060FB6A /* FirstViewController.swift */; };
 		8C882BB320389ECB0060FB6A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C882BB220389ECB0060FB6A /* SecondViewController.swift */; };
@@ -49,6 +51,8 @@
 		7BA42C05802725320B723D44 /* Pods-EngineeringForKidsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EngineeringForKidsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EngineeringForKidsUITests/Pods-EngineeringForKidsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7CEC70952040F928004C89F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7CEC709A2041002E004C89F0 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		8B00BC7F20588B85000A6727 /* SelectChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectChildViewController.swift; sourceTree = "<group>"; };
+		8B00BC832058A518000A6727 /* ParentLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentLoginViewController.swift; sourceTree = "<group>"; };
 		8C882BAB20389ECB0060FB6A /* EngineeringForKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngineeringForKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C882BAE20389ECB0060FB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C882BB020389ECB0060FB6A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 				8C882BB020389ECB0060FB6A /* FirstViewController.swift */,
 				8C882BB220389ECB0060FB6A /* SecondViewController.swift */,
 				7CEC709A2041002E004C89F0 /* RegistrationViewController.swift */,
+				8B00BC7F20588B85000A6727 /* SelectChildViewController.swift */,
+				8B00BC832058A518000A6727 /* ParentLoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -504,7 +510,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B00BC8020588B85000A6727 /* SelectChildViewController.swift in Sources */,
 				8C882BB320389ECB0060FB6A /* SecondViewController.swift in Sources */,
+				8B00BC842058A518000A6727 /* ParentLoginViewController.swift in Sources */,
 				8C882BAF20389ECB0060FB6A /* AppDelegate.swift in Sources */,
 				7CEC709B2041002E004C89F0 /* RegistrationViewController.swift in Sources */,
 				8C882BB120389ECB0060FB6A /* FirstViewController.swift in Sources */,
