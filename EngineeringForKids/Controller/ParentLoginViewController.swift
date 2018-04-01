@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ParentLoginViewController: UIViewController {
 
@@ -20,7 +21,31 @@ class ParentLoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //Login
+    
+    @IBOutlet weak var parentEmail: UITextField!
+    
+    @IBOutlet weak var loginButton: UIButton!
 
+    @IBAction func parentLogin(_ sender: UIButton) {
+        print ("trying to sign in")
+        print(parentEmail.text)
+        Auth.auth().signIn(withEmail: parentEmail.text!, password: "password") { (user, error) in
+            if (error == nil) {
+                print("you have logged in successfully")
+                self.performSegue(withIdentifier: "login", sender: nil)
+            } else {
+                print("Failed to sign in")
+                let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                
+                let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                alertController.addAction(defaultAction)
+                
+                self.present(alertController, animated: true, completion: nil)
+            }
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

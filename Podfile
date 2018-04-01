@@ -11,6 +11,7 @@ pod 'Firebase/Database'
 pod 'Firebase/Auth'
 pod 'SVProgressHUD'
 pod 'Firebase'
+pod 'Firebase/Auth'
 
   target 'EngineeringForKidsTests' do
     inherit! :search_paths
